@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptación y Desencriptación</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class="h1x">Encriptación y Desencriptación de Mensajes</h1>
+    
+    <form class="form" action="procesamiento.php" method="post">
+        <label for="mensaje">Ingrese su mensaje:</label>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea>
+        <br>
+        <label for="clave">Ingrese la clave secreta:</label>
+        <input type="text" name="clave" id="clave" required> <!-- Se añadió "required" para obligar a completar el campo --> 
+        <br>
+        <button type="submit">Encriptar</button>
+    </form>
+</body>
+</html>

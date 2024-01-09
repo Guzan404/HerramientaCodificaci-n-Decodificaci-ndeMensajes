@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptación de Mensajes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form class="form" action="desencriptar.php" method="post">
+        <h1>Desencriptación de Mensajes</h1>
+        <label for="mensajeCifrado">Ingrese el mensaje cifrado:</label>
+        <textarea name="mensajeCifrado" id="mensajeCifrado" rows="4" cols="50"></textarea> 
+        <br>
+        <label for="clave">Ingrese la clave secreta:</label>
+        <input type="text" name="clave" id="clave" required>
+        <br>
+        <button type="submit">Desencriptar</button>
+    </form>
+    <a class="volverinicio" href="index.html"><button>Volver al Inicio</button></a>
+</body>
+</html>
